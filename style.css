@@ -150,14 +150,14 @@ button:active {
 @media (min-width: 1440px) {
     main {
         width: 640px;
-        height: 470px;
+        height: 480px;
         display: grid;
         grid-template-areas: "community community" "subscription    whyUs";
         grid-template-columns: 320px 320px;
         grid-template-rows: 1fr 1fr;
     }
     .community {
-        height: 215px;
+        height: 220px;
         padding: 45px 40px;
         font-size: 16px;
         grid-area: community;
@@ -172,13 +172,13 @@ button:active {
         font-size: 15px;
     }
     .subscription {
-        height: 255px;
+        height: 260px;
         padding: 45px 40px;
         grid-area: subscription;
         border-bottom-left-radius: 6px;
     }
     .whyUs {
-        height: 255px;
+        height: 260px;
         padding: 45px 40px;
         grid-area: whyUs;
         border-bottom-left-radius: 0;
